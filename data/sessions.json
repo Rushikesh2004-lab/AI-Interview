@@ -1,0 +1,1360 @@
+{
+  "schema_version": 1,
+  "sessions": [
+    {
+      "sessionId": "sess-gn8v0r4mmslnwhqv",
+      "candidate": {
+        "member": {
+          "id": "CAND-009",
+          "name": "Zara Ahmadi",
+          "jobRole": "AI Engineer",
+          "yearsExperience": 1,
+          "education": "BS Computer Science",
+          "status": "COMPLETED"
+        },
+        "missions": [
+          {
+            "day": 7,
+            "title": "Embeddings Explained",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 8,
+            "title": "Vector Databases Overview",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 10,
+            "title": "Retrieval & Matching Engine",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 12,
+            "title": "Prompt Engineering Fundamentals",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 13,
+            "title": "Function Calling & Structured Outputs",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 21,
+            "title": "LangChain Agents",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 22,
+            "title": "Multi-Agent Orchestration",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 23,
+            "title": "Model Context Protocol (MCP)",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 27,
+            "title": "Security, Privacy & Guardrails",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 31,
+            "title": "Capstone Project & Final Demo",
+            "passed": true,
+            "attempts": 1
+          }
+        ],
+        "signals": {
+          "commitDays": 31,
+          "missionsCompleted": 31,
+          "missionsFirstTry": 29
+        }
+      },
+      "plan": [
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "kind": "concept",
+          "tools": [
+            "OpenAI Function Calling",
+            "Pydantic",
+            "Python"
+          ],
+          "objectives": [
+            "Define tool schemas for healthcare-related chatbot functions",
+            "Implement LLM function calling with automatic tool execution",
+            "Validate structured outputs using Pydantic models",
+            "Log tool calls for debugging and auditing",
+            "Test different user queries to verify correct tool selection"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 13: \"Advanced Prompting: Function Calling & Structured Outputs\". In your own words, walk me through define tool schemas for healthcare-related chatbot functions. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "kind": "applied",
+          "tools": [
+            "OpenAI Function Calling",
+            "Pydantic",
+            "Python"
+          ],
+          "objectives": [
+            "Define tool schemas for healthcare-related chatbot functions",
+            "Implement LLM function calling with automatic tool execution",
+            "Validate structured outputs using Pydantic models",
+            "Log tool calls for debugging and auditing",
+            "Test different user queries to verify correct tool selection"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Advanced Prompting: Function Calling & Structured Outputs\" (Day 13) — you worked with OpenAI Function Calling, Pydantic, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "kind": "concept",
+          "tools": [
+            "LangChain",
+            "LangChain Agents",
+            "ReAct",
+            "Python"
+          ],
+          "objectives": [
+            "Convert function-calling workflows into a reasoning agent",
+            "Wrap chatbot capabilities as reusable LangChain tools",
+            "Build a ReAct agent capable of selecting the correct tool automatically",
+            "Analyze reasoning traces to understand agent decision making",
+            "Evaluate whether the agent chooses the right tools for healthcare queries"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 21: \"Agentic Frameworks: LangChain Agents & Tool Use\". In your own words, walk me through convert function-calling workflows into a reasoning agent. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "kind": "applied",
+          "tools": [
+            "LangChain",
+            "LangChain Agents",
+            "ReAct",
+            "Python"
+          ],
+          "objectives": [
+            "Convert function-calling workflows into a reasoning agent",
+            "Wrap chatbot capabilities as reusable LangChain tools",
+            "Build a ReAct agent capable of selecting the correct tool automatically",
+            "Analyze reasoning traces to understand agent decision making",
+            "Evaluate whether the agent chooses the right tools for healthcare queries"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Agentic Frameworks: LangChain Agents & Tool Use\" (Day 21) — you worked with LangChain, LangChain Agents, ReAct. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "concept",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 22: \"Multi-Agent Orchestration\". In your own words, walk me through create specialized agents for different healthcare domains. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "applied",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Multi-Agent Orchestration\" (Day 22) — you worked with CrewAI, LangGraph, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "kind": "concept",
+          "tools": [
+            "MCP Python SDK",
+            "Claude Desktop",
+            "Cline",
+            "Python"
+          ],
+          "objectives": [
+            "Understand the purpose of the Model Context Protocol",
+            "Build an MCP server exposing healthcare chatbot tools",
+            "Connect the MCP server to an MCP-compatible client",
+            "Expose multiple chatbot capabilities through standardized MCP tools",
+            "Verify successful tool execution through live MCP interactions"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 23: \"Model Context Protocol (MCP)\". In your own words, walk me through understand the purpose of the Model Context Protocol. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "kind": "applied",
+          "tools": [
+            "MCP Python SDK",
+            "Claude Desktop",
+            "Cline",
+            "Python"
+          ],
+          "objectives": [
+            "Understand the purpose of the Model Context Protocol",
+            "Build an MCP server exposing healthcare chatbot tools",
+            "Connect the MCP server to an MCP-compatible client",
+            "Expose multiple chatbot capabilities through standardized MCP tools",
+            "Verify successful tool execution through live MCP interactions"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Model Context Protocol (MCP)\" (Day 23) — you worked with MCP Python SDK, Claude Desktop, Cline. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 27,
+          "dayTitle": "Security, Privacy & Guardrails",
+          "kind": "concept",
+          "tools": [
+            "FastAPI",
+            "Python",
+            "Authentication",
+            "Input Validation"
+          ],
+          "objectives": [
+            "Secure chatbot APIs against unauthorized access",
+            "Validate and sanitize user inputs before processing",
+            "Protect sensitive healthcare information throughout the pipeline",
+            "Implement prompt-injection and jailbreak safeguards",
+            "Test common security scenarios and document mitigation strategies"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 27: \"Security, Privacy & Guardrails\". In your own words, walk me through secure chatbot APIs against unauthorized access. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 27,
+          "dayTitle": "Security, Privacy & Guardrails",
+          "kind": "applied",
+          "tools": [
+            "FastAPI",
+            "Python",
+            "Authentication",
+            "Input Validation"
+          ],
+          "objectives": [
+            "Secure chatbot APIs against unauthorized access",
+            "Validate and sanitize user inputs before processing",
+            "Protect sensitive healthcare information throughout the pipeline",
+            "Implement prompt-injection and jailbreak safeguards",
+            "Test common security scenarios and document mitigation strategies"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Security, Privacy & Guardrails\" (Day 27) — you worked with FastAPI, Python, Authentication. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "concept",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 31: \"Capstone Project & Final Demo\". In your own words, walk me through demonstrate the complete enterprise healthcare chatbot. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "applied",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Capstone Project & Final Demo\" (Day 31) — you worked with FastAPI, React, LangChain. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        }
+      ],
+      "currentIndex": 12,
+      "followUpsAskedForCurrent": 0,
+      "transcript": [
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "question": "Let's talk about Day 13: \"Advanced Prompting: Function Calling & Structured Outputs\". In your own words, walk me through define tool schemas for healthcare-related chatbot functions. What's the core idea, and why does it matter?",
+          "answer": "The core idea is to define clear, structured schemas for the tools a healthcare chatbot can call.\n\nFor example, a book_appointment tool could require a patient ID, doctor/specialty, date, and time, with strict validation.\n\nThis matters because structured tool calls make the chatbot’s actions predictable, validated, and safer, especially when handling sensitive healthcare data.",
+          "evaluation": {
+            "words": 54,
+            "coverage": 0.25925925925925924,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "question": "Still on \"Advanced Prompting: Function Calling & Structured Outputs\" (Day 13) — you worked with OpenAI Function Calling, Pydantic, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a healthcare appointment-booking chatbot. I’d use OpenAI Function Calling to call a book_appointment function, with Pydantic validating the patient ID, specialty, date, and time.\n\nIf implemented incorrectly, it could book the wrong appointment, send invalid data, or expose sensitive patient information. Strong validation, authentication, and authorization are essential.",
+          "evaluation": {
+            "words": 52,
+            "coverage": 0.2962962962962963,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "question": "Let's talk about Day 21: \"Agentic Frameworks: LangChain Agents & Tool Use\". In your own words, walk me through convert function-calling workflows into a reasoning agent. What's the core idea, and why does it matter?",
+          "answer": "The core idea is to move from fixed function calls to an agent that can decide which tools to use and in what order.\n\nFor example, a healthcare agent might:\n\nUnderstand the user’s request.\nDecide whether it needs a patient lookup, appointment tool, or knowledge search.\nCall the appropriate tool.\nObserve the result and decide the next step.\nReturn a final answer.\n\nThis matters because agents can handle multi-step, dynamic tasks instead of requiring every workflow to be manually programmed.",
+          "evaluation": {
+            "words": 80,
+            "coverage": 0.23333333333333334,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "question": "Still on \"Agentic Frameworks: LangChain Agents & Tool Use\" (Day 21) — you worked with LangChain, LangChain Agents, ReAct. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a healthcare support agent using LangChain and ReAct. It could reason about a patient’s request, decide to search medical information, then use an appointment tool if needed.\n\nIf implemented incorrectly, the agent could choose the wrong tool, enter an unnecessary loop, or produce unsafe medical advice. Strong tool permissions, validation, and guardrails are important.",
+          "evaluation": {
+            "words": 58,
+            "coverage": 0.16666666666666666,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "question": "Let's talk about Day 22: \"Multi-Agent Orchestration\". In your own words, walk me through create specialized agents for different healthcare domains. What's the core idea, and why does it matter?",
+          "answer": "The core idea is to use multiple specialized agents, each responsible for a specific healthcare domain.\n\nFor example:\n\nTriage agent → handles symptoms.\nMedication agent → handles medication questions.\nAppointment agent → handles scheduling.\nSupervisor agent → routes tasks between them.\n\nIt matters because specialization makes agents more focused, easier to manage, and safer than having one agent handle every healthcare task.",
+          "evaluation": {
+            "words": 62,
+            "coverage": 0.1935483870967742,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "question": "Still on \"Multi-Agent Orchestration\" (Day 22) — you worked with CrewAI, LangGraph, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a hospital support chatbot using CrewAI/LangGraph:\n\nA triage agent analyzes symptoms.\nA medication agent handles medication questions.\nAn appointment agent manages scheduling.\nA supervisor agent routes the request and coordinates them.\n\nIf the orchestration is wrong, the system could send a request to the wrong agent, pass incorrect context, or let agents make conflicting decisions, potentially resulting in unsafe healthcare advice or incorrect appointments.",
+          "evaluation": {
+            "words": 68,
+            "coverage": 0.1935483870967742,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "question": "Let's talk about Day 23: \"Model Context Protocol (MCP)\". In your own words, walk me through understand the purpose of the Model Context Protocol. What's the core idea, and why does it matter?",
+          "answer": "The core idea of MCP (Model Context Protocol) is to provide a standard way for AI models to connect with external tools, data, and services.\n\nFor example, an AI assistant could use MCP to access a database, search documents, or interact with a scheduling system.\n\nIt matters because MCP makes integrations more standardized, reusable, and easier to manage, instead of building a custom connection for every tool.",
+          "evaluation": {
+            "words": 67,
+            "coverage": 0.25925925925925924,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "question": "Still on \"Model Context Protocol (MCP)\" (Day 23) — you worked with MCP Python SDK, Claude Desktop, Cline. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a healthcare assistant using MCP to securely access patient records or appointment systems. For example, the assistant could use an MCP tool to check appointment availability and help schedule a visit.\n\nIf implemented incorrectly, it could access unauthorized patient data, call the wrong tool, or expose sensitive information. Proper authentication, permissions, input validation, and logging are essential.",
+          "evaluation": {
+            "words": 61,
+            "coverage": 0.07407407407407407,
+            "score": "adequate"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "question": "[follow-up] Good — one follow-up: what's a trade-off or limitation of that approach that you'd flag to a teammate?",
+          "answer": "A key trade-off is convenience vs. security and complexity. MCP makes tool integration easier, but each connected tool increases the attack surface and permission-management burden.\n\nI’d flag: “Use least-privilege permissions and carefully validate and monitor every tool call, especially for sensitive healthcare data.”",
+          "evaluation": {
+            "words": 43,
+            "coverage": 0.07407407407407407,
+            "score": "adequate"
+          },
+          "followUpCount": 1
+        },
+        {
+          "day": 27,
+          "dayTitle": "Security, Privacy & Guardrails",
+          "question": "Let's talk about Day 27: \"Security, Privacy & Guardrails\". In your own words, walk me through secure chatbot APIs against unauthorized access. What's the core idea, and why does it matter?",
+          "answer": "The core idea is to protect the chatbot API with authentication, authorization, input validation, and rate limiting.\n\nFor example, a FastAPI healthcare chatbot could require a valid JWT token and check whether the user has permission to access specific patient data.\n\nIt matters because unauthorized access could lead to data breaches, privacy violations, or misuse of the chatbot.",
+          "evaluation": {
+            "words": 58,
+            "coverage": 0.28125,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 27,
+          "dayTitle": "Security, Privacy & Guardrails",
+          "question": "Still on \"Security, Privacy & Guardrails\" (Day 27) — you worked with FastAPI, Python, Authentication. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a FastAPI healthcare chatbot where users authenticate with JWT tokens before accessing their appointments or medical information.\n\nIf implemented incorrectly, an attacker could bypass authentication, access another patient’s data, or abuse the API. Strong authorization, input validation, rate limiting, and secure token handling are essential.",
+          "evaluation": {
+            "words": 49,
+            "coverage": 0.34375,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "question": "Let's talk about Day 31: \"Capstone Project & Final Demo\". In your own words, walk me through demonstrate the complete enterprise healthcare chatbot. What's the core idea, and why does it matter?",
+          "answer": "The core idea is to combine all the components into one production-ready healthcare chatbot.\n\nIt could include:\n\nReact + FastAPI for the application.\nLangChain and agents for intelligent workflows.\nRAG for reliable information retrieval.\nAuthentication and guardrails to protect patient data.\nTool/MCP integrations for external healthcare systems.\n\nIt matters because the capstone demonstrates that these pieces work together as a secure, practical enterprise solution, not just as isolated features.",
+          "evaluation": {
+            "words": 69,
+            "coverage": 0.3793103448275862,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "question": "Still on \"Capstone Project & Final Demo\" (Day 31) — you worked with FastAPI, React, LangChain. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario is a hospital patient-support chatbot: React provides the interface, FastAPI handles secure APIs, and LangChain manages the LLM workflow for answering questions and assisting with appointments.\n\nIf implemented incorrectly, it could leak patient data, provide incorrect medical information, or schedule the wrong appointment. Strong authentication, authorization, validation, and guardrails are essential.",
+          "evaluation": {
+            "words": 54,
+            "coverage": 0.13793103448275862,
+            "score": "adequate"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "question": "[follow-up] Good — one follow-up: what's a trade-off or limitation of that approach that you'd flag to a teammate?",
+          "answer": "A key trade-off is flexibility vs. complexity. Using React, FastAPI, and LangChain together gives us a powerful system, but it also creates more components to secure, monitor, debug, and maintain.\n\nI’d flag: “Keep the architecture as simple as possible and add agents or integrations only when they provide clear value.”",
+          "evaluation": {
+            "words": 50,
+            "coverage": 0.20689655172413793,
+            "score": "strong"
+          },
+          "followUpCount": 1
+        }
+      ],
+      "pendingQuestion": null,
+      "startedAt": "2026-08-09T10:30:52.389Z",
+      "feedback": {
+        "session_id": "sess-gn8v0r4mmslnwhqv",
+        "summary": "Zara Ahmadi covered 6 curriculum day(s) across 14 question(s) for the \"AI Engineer\" track. Overall the interview showed solid, demonstrable understanding of the material, with the strongest performance on recently-covered advanced topics and the most room to grow on lower-confidence areas flagged below.",
+        "strengths": [
+          "Strong command of \"Advanced Prompting: Function Calling & Structured Outputs\" (Day 13) — answered clearly with concrete detail.",
+          "Strong command of \"Agentic Frameworks: LangChain Agents & Tool Use\" (Day 21) — answered clearly with concrete detail.",
+          "Strong command of \"Multi-Agent Orchestration\" (Day 22) — answered clearly with concrete detail.",
+          "Strong command of \"Security, Privacy & Guardrails\" (Day 27) — answered clearly with concrete detail.",
+          "Strong command of \"Capstone Project & Final Demo\" (Day 31) — answered clearly with concrete detail.",
+          "High first-try mission pass rate (94%), indicating solid independent problem-solving."
+        ],
+        "gaps": [
+          "\"Model Context Protocol (MCP)\" (Day 23) answers were thin or needed follow-up prompting to get specifics."
+        ],
+        "next": [
+          "Revisit Day 23 (\"Model Context Protocol (MCP)\") material and practice explaining it with a concrete example."
+        ]
+      },
+      "completedAt": "2026-08-09T10:35:34.648Z",
+      "session_id": "sess-gn8v0r4mmslnwhqv"
+    },
+    {
+      "sessionId": "sess-qx4f1i6mmslo3stc",
+      "candidate": {
+        "member": {
+          "id": "CAND-006",
+          "name": "Wendy Foster",
+          "jobRole": "Marketing Manager",
+          "yearsExperience": 12,
+          "education": "BA Marketing",
+          "status": "COMPLETED"
+        },
+        "missions": [
+          {
+            "day": 1,
+            "title": "VS Code & Python Environment Setup",
+            "passed": true,
+            "attempts": 3
+          },
+          {
+            "day": 7,
+            "title": "Embeddings Explained",
+            "passed": true,
+            "attempts": 5
+          },
+          {
+            "day": 8,
+            "title": "Vector Databases Overview",
+            "passed": true,
+            "attempts": 5
+          },
+          {
+            "day": 12,
+            "title": "Prompt Engineering Fundamentals",
+            "passed": true,
+            "attempts": 4
+          },
+          {
+            "day": 16,
+            "title": "Chatbot Backend & API Integration",
+            "passed": true,
+            "attempts": 4
+          },
+          {
+            "day": 17,
+            "title": "Chatbot Frontend Development",
+            "passed": true,
+            "attempts": 2
+          },
+          {
+            "day": 22,
+            "title": "Multi-Agent Orchestration",
+            "passed": true,
+            "attempts": 5
+          },
+          {
+            "day": 27,
+            "title": "Security, Privacy & Guardrails",
+            "skipped": true
+          },
+          {
+            "day": 28,
+            "title": "Docker & Kubernetes Deployment",
+            "skipped": true
+          },
+          {
+            "day": 31,
+            "title": "Capstone Project & Final Demo",
+            "passed": true,
+            "attempts": 3
+          }
+        ],
+        "signals": {
+          "commitDays": 19,
+          "missionsCompleted": 24,
+          "missionsFirstTry": 2
+        }
+      },
+      "plan": [
+        {
+          "day": 7,
+          "dayTitle": "Embeddings Explained",
+          "kind": "concept",
+          "tools": [
+            "Sentence Transformers",
+            "OpenAI Embeddings",
+            "Scikit-learn",
+            "Matplotlib"
+          ],
+          "objectives": [
+            "Understand how text is converted into vector embeddings",
+            "Generate embeddings for every knowledge base chunk",
+            "Store embeddings alongside the original documents",
+            "Visualize embedding clusters using PCA",
+            "Analyze whether similar healthcare concepts cluster together"
+          ],
+          "attempts": 5,
+          "prompt": "Let's talk about Day 7: \"Embeddings Explained\". In your own words, walk me through understand how text is converted into vector embeddings. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 7,
+          "dayTitle": "Embeddings Explained",
+          "kind": "applied",
+          "tools": [
+            "Sentence Transformers",
+            "OpenAI Embeddings",
+            "Scikit-learn",
+            "Matplotlib"
+          ],
+          "objectives": [
+            "Understand how text is converted into vector embeddings",
+            "Generate embeddings for every knowledge base chunk",
+            "Store embeddings alongside the original documents",
+            "Visualize embedding clusters using PCA",
+            "Analyze whether similar healthcare concepts cluster together"
+          ],
+          "attempts": 5,
+          "prompt": "Still on \"Embeddings Explained\" (Day 7) — you worked with Sentence Transformers, OpenAI Embeddings, Scikit-learn. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 7,
+          "dayTitle": "Embeddings Explained",
+          "kind": "probe",
+          "tools": [
+            "Sentence Transformers",
+            "OpenAI Embeddings",
+            "Scikit-learn",
+            "Matplotlib"
+          ],
+          "objectives": [
+            "Understand how text is converted into vector embeddings",
+            "Generate embeddings for every knowledge base chunk",
+            "Store embeddings alongside the original documents",
+            "Visualize embedding clusters using PCA",
+            "Analyze whether similar healthcare concepts cluster together"
+          ],
+          "attempts": 5,
+          "prompt": "Your records show \"Embeddings Explained\" (Day 7) took 5 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 8,
+          "dayTitle": "Vector Databases Overview",
+          "kind": "concept",
+          "tools": [
+            "ChromaDB",
+            "Pinecone"
+          ],
+          "objectives": [
+            "Learn the role of vector databases in RAG applications",
+            "Set up a local Chroma vector database",
+            "Create a cloud-based Pinecone index for comparison",
+            "Compare local and managed vector database solutions",
+            "Select the most suitable database for the chatbot project"
+          ],
+          "attempts": 5,
+          "prompt": "Let's talk about Day 8: \"Vector Databases Overview\". In your own words, walk me through learn the role of vector databases in RAG applications. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 8,
+          "dayTitle": "Vector Databases Overview",
+          "kind": "applied",
+          "tools": [
+            "ChromaDB",
+            "Pinecone"
+          ],
+          "objectives": [
+            "Learn the role of vector databases in RAG applications",
+            "Set up a local Chroma vector database",
+            "Create a cloud-based Pinecone index for comparison",
+            "Compare local and managed vector database solutions",
+            "Select the most suitable database for the chatbot project"
+          ],
+          "attempts": 5,
+          "prompt": "Still on \"Vector Databases Overview\" (Day 8) — you worked with ChromaDB, Pinecone. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 8,
+          "dayTitle": "Vector Databases Overview",
+          "kind": "probe",
+          "tools": [
+            "ChromaDB",
+            "Pinecone"
+          ],
+          "objectives": [
+            "Learn the role of vector databases in RAG applications",
+            "Set up a local Chroma vector database",
+            "Create a cloud-based Pinecone index for comparison",
+            "Compare local and managed vector database solutions",
+            "Select the most suitable database for the chatbot project"
+          ],
+          "attempts": 5,
+          "prompt": "Your records show \"Vector Databases Overview\" (Day 8) took 5 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "kind": "concept",
+          "tools": [
+            "LLMs",
+            "Prompt Templates"
+          ],
+          "objectives": [
+            "Understand zero-shot, few-shot, and chain-of-thought prompting",
+            "Design multiple system prompt variations for the chatbot",
+            "Compare prompts based on accuracy, compliance, and tone",
+            "Evaluate prompt performance using a fixed question set",
+            "Finalize the production-ready system prompt"
+          ],
+          "attempts": 4,
+          "prompt": "Let's talk about Day 12: \"Prompt Engineering Fundamentals\". In your own words, walk me through understand zero-shot, few-shot, and chain-of-thought prompting. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "kind": "applied",
+          "tools": [
+            "LLMs",
+            "Prompt Templates"
+          ],
+          "objectives": [
+            "Understand zero-shot, few-shot, and chain-of-thought prompting",
+            "Design multiple system prompt variations for the chatbot",
+            "Compare prompts based on accuracy, compliance, and tone",
+            "Evaluate prompt performance using a fixed question set",
+            "Finalize the production-ready system prompt"
+          ],
+          "attempts": 4,
+          "prompt": "Still on \"Prompt Engineering Fundamentals\" (Day 12) — you worked with LLMs, Prompt Templates. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "kind": "probe",
+          "tools": [
+            "LLMs",
+            "Prompt Templates"
+          ],
+          "objectives": [
+            "Understand zero-shot, few-shot, and chain-of-thought prompting",
+            "Design multiple system prompt variations for the chatbot",
+            "Compare prompts based on accuracy, compliance, and tone",
+            "Evaluate prompt performance using a fixed question set",
+            "Finalize the production-ready system prompt"
+          ],
+          "attempts": 4,
+          "prompt": "Your records show \"Prompt Engineering Fundamentals\" (Day 12) took 4 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 16,
+          "dayTitle": "Chatbot Backend & API Integration",
+          "kind": "concept",
+          "tools": [
+            "FastAPI",
+            "SQLite",
+            "Python"
+          ],
+          "objectives": [
+            "Create a /chat API endpoint for the healthcare chatbot",
+            "Integrate retrieval, function calling, and LLM response generation",
+            "Implement session-based conversation management",
+            "Build a conversation history endpoint",
+            "Test the complete backend API using Postman or cURL"
+          ],
+          "attempts": 4,
+          "prompt": "Let's talk about Day 16: \"Chatbot Backend & API Integration\". In your own words, walk me through create a /chat API endpoint for the healthcare chatbot. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 16,
+          "dayTitle": "Chatbot Backend & API Integration",
+          "kind": "applied",
+          "tools": [
+            "FastAPI",
+            "SQLite",
+            "Python"
+          ],
+          "objectives": [
+            "Create a /chat API endpoint for the healthcare chatbot",
+            "Integrate retrieval, function calling, and LLM response generation",
+            "Implement session-based conversation management",
+            "Build a conversation history endpoint",
+            "Test the complete backend API using Postman or cURL"
+          ],
+          "attempts": 4,
+          "prompt": "Still on \"Chatbot Backend & API Integration\" (Day 16) — you worked with FastAPI, SQLite, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 16,
+          "dayTitle": "Chatbot Backend & API Integration",
+          "kind": "probe",
+          "tools": [
+            "FastAPI",
+            "SQLite",
+            "Python"
+          ],
+          "objectives": [
+            "Create a /chat API endpoint for the healthcare chatbot",
+            "Integrate retrieval, function calling, and LLM response generation",
+            "Implement session-based conversation management",
+            "Build a conversation history endpoint",
+            "Test the complete backend API using Postman or cURL"
+          ],
+          "attempts": 4,
+          "prompt": "Your records show \"Chatbot Backend & API Integration\" (Day 16) took 4 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "concept",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 5,
+          "prompt": "Let's talk about Day 22: \"Multi-Agent Orchestration\". In your own words, walk me through create specialized agents for different healthcare domains. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "applied",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 5,
+          "prompt": "Still on \"Multi-Agent Orchestration\" (Day 22) — you worked with CrewAI, LangGraph, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "probe",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 5,
+          "prompt": "Your records show \"Multi-Agent Orchestration\" (Day 22) took 5 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "concept",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 3,
+          "prompt": "Let's talk about Day 31: \"Capstone Project & Final Demo\". In your own words, walk me through demonstrate the complete enterprise healthcare chatbot. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "applied",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 3,
+          "prompt": "Still on \"Capstone Project & Final Demo\" (Day 31) — you worked with FastAPI, React, LangChain. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "probe",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 3,
+          "prompt": "Your records show \"Capstone Project & Final Demo\" (Day 31) took 3 attempts before passing. What was the trickiest part to get right, and what changed between your first attempt and the one that worked?"
+        },
+        {
+          "day": 27,
+          "dayTitle": "Security, Privacy & Guardrails",
+          "kind": "gap-check",
+          "tools": [
+            "FastAPI",
+            "Python",
+            "Authentication",
+            "Input Validation"
+          ],
+          "objectives": [
+            "Secure chatbot APIs against unauthorized access",
+            "Validate and sanitize user inputs before processing",
+            "Protect sensitive healthcare information throughout the pipeline",
+            "Implement prompt-injection and jailbreak safeguards",
+            "Test common security scenarios and document mitigation strategies"
+          ],
+          "attempts": 0,
+          "prompt": "I see \"Security, Privacy & Guardrails\" (Day 27) was marked as skipped in your curriculum. Even without formally completing it, what's your understanding of secure chatbot APIs against unauthorized access?"
+        }
+      ],
+      "currentIndex": 0,
+      "followUpsAskedForCurrent": 0,
+      "transcript": [],
+      "pendingQuestion": {
+        "day": 7,
+        "dayTitle": "Embeddings Explained",
+        "kind": "concept",
+        "tools": [
+          "Sentence Transformers",
+          "OpenAI Embeddings",
+          "Scikit-learn",
+          "Matplotlib"
+        ],
+        "objectives": [
+          "Understand how text is converted into vector embeddings",
+          "Generate embeddings for every knowledge base chunk",
+          "Store embeddings alongside the original documents",
+          "Visualize embedding clusters using PCA",
+          "Analyze whether similar healthcare concepts cluster together"
+        ],
+        "attempts": 5,
+        "prompt": "Let's talk about Day 7: \"Embeddings Explained\". In your own words, walk me through understand how text is converted into vector embeddings. What's the core idea, and why does it matter?"
+      },
+      "startedAt": "2026-08-09T10:36:33.324Z",
+      "session_id": "sess-qx4f1i6mmslo3stc"
+    },
+    {
+      "sessionId": "sess-8o7xyp0vmslpl2or",
+      "candidate": {
+        "member": {
+          "id": "CAND-003",
+          "name": "Emily Chen",
+          "jobRole": "AI Engineer",
+          "yearsExperience": 6,
+          "education": "MS Artificial Intelligence",
+          "status": "COMPLETED"
+        },
+        "missions": [
+          {
+            "day": 7,
+            "title": "Embeddings Explained",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 8,
+            "title": "Vector Databases Overview",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 10,
+            "title": "Retrieval & Matching Engine",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 11,
+            "title": "RAG End-to-End & LLM API Basics",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 12,
+            "title": "Prompt Engineering Fundamentals",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 13,
+            "title": "Function Calling & Structured Outputs",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 21,
+            "title": "LangChain Agents",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 22,
+            "title": "Multi-Agent Orchestration",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 23,
+            "title": "Model Context Protocol (MCP)",
+            "passed": true,
+            "attempts": 1
+          },
+          {
+            "day": 31,
+            "title": "Capstone Project & Final Demo",
+            "passed": true,
+            "attempts": 1
+          }
+        ],
+        "signals": {
+          "commitDays": 31,
+          "missionsCompleted": 31,
+          "missionsFirstTry": 30
+        }
+      },
+      "plan": [
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "kind": "concept",
+          "tools": [
+            "LLMs",
+            "Prompt Templates"
+          ],
+          "objectives": [
+            "Understand zero-shot, few-shot, and chain-of-thought prompting",
+            "Design multiple system prompt variations for the chatbot",
+            "Compare prompts based on accuracy, compliance, and tone",
+            "Evaluate prompt performance using a fixed question set",
+            "Finalize the production-ready system prompt"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 12: \"Prompt Engineering Fundamentals\". In your own words, walk me through understand zero-shot, few-shot, and chain-of-thought prompting. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "kind": "applied",
+          "tools": [
+            "LLMs",
+            "Prompt Templates"
+          ],
+          "objectives": [
+            "Understand zero-shot, few-shot, and chain-of-thought prompting",
+            "Design multiple system prompt variations for the chatbot",
+            "Compare prompts based on accuracy, compliance, and tone",
+            "Evaluate prompt performance using a fixed question set",
+            "Finalize the production-ready system prompt"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Prompt Engineering Fundamentals\" (Day 12) — you worked with LLMs, Prompt Templates. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "kind": "concept",
+          "tools": [
+            "OpenAI Function Calling",
+            "Pydantic",
+            "Python"
+          ],
+          "objectives": [
+            "Define tool schemas for healthcare-related chatbot functions",
+            "Implement LLM function calling with automatic tool execution",
+            "Validate structured outputs using Pydantic models",
+            "Log tool calls for debugging and auditing",
+            "Test different user queries to verify correct tool selection"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 13: \"Advanced Prompting: Function Calling & Structured Outputs\". In your own words, walk me through define tool schemas for healthcare-related chatbot functions. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 13,
+          "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+          "kind": "applied",
+          "tools": [
+            "OpenAI Function Calling",
+            "Pydantic",
+            "Python"
+          ],
+          "objectives": [
+            "Define tool schemas for healthcare-related chatbot functions",
+            "Implement LLM function calling with automatic tool execution",
+            "Validate structured outputs using Pydantic models",
+            "Log tool calls for debugging and auditing",
+            "Test different user queries to verify correct tool selection"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Advanced Prompting: Function Calling & Structured Outputs\" (Day 13) — you worked with OpenAI Function Calling, Pydantic, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "kind": "concept",
+          "tools": [
+            "LangChain",
+            "LangChain Agents",
+            "ReAct",
+            "Python"
+          ],
+          "objectives": [
+            "Convert function-calling workflows into a reasoning agent",
+            "Wrap chatbot capabilities as reusable LangChain tools",
+            "Build a ReAct agent capable of selecting the correct tool automatically",
+            "Analyze reasoning traces to understand agent decision making",
+            "Evaluate whether the agent chooses the right tools for healthcare queries"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 21: \"Agentic Frameworks: LangChain Agents & Tool Use\". In your own words, walk me through convert function-calling workflows into a reasoning agent. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 21,
+          "dayTitle": "Agentic Frameworks: LangChain Agents & Tool Use",
+          "kind": "applied",
+          "tools": [
+            "LangChain",
+            "LangChain Agents",
+            "ReAct",
+            "Python"
+          ],
+          "objectives": [
+            "Convert function-calling workflows into a reasoning agent",
+            "Wrap chatbot capabilities as reusable LangChain tools",
+            "Build a ReAct agent capable of selecting the correct tool automatically",
+            "Analyze reasoning traces to understand agent decision making",
+            "Evaluate whether the agent chooses the right tools for healthcare queries"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Agentic Frameworks: LangChain Agents & Tool Use\" (Day 21) — you worked with LangChain, LangChain Agents, ReAct. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "concept",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 22: \"Multi-Agent Orchestration\". In your own words, walk me through create specialized agents for different healthcare domains. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 22,
+          "dayTitle": "Multi-Agent Orchestration",
+          "kind": "applied",
+          "tools": [
+            "CrewAI",
+            "LangGraph",
+            "Python"
+          ],
+          "objectives": [
+            "Create specialized agents for different healthcare domains",
+            "Build a router agent that delegates requests to the correct specialist",
+            "Implement a complete multi-agent workflow",
+            "Compare multi-agent performance with a single-agent architecture",
+            "Identify scenarios where multiple agents provide measurable benefits"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Multi-Agent Orchestration\" (Day 22) — you worked with CrewAI, LangGraph, Python. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "kind": "concept",
+          "tools": [
+            "MCP Python SDK",
+            "Claude Desktop",
+            "Cline",
+            "Python"
+          ],
+          "objectives": [
+            "Understand the purpose of the Model Context Protocol",
+            "Build an MCP server exposing healthcare chatbot tools",
+            "Connect the MCP server to an MCP-compatible client",
+            "Expose multiple chatbot capabilities through standardized MCP tools",
+            "Verify successful tool execution through live MCP interactions"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 23: \"Model Context Protocol (MCP)\". In your own words, walk me through understand the purpose of the Model Context Protocol. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 23,
+          "dayTitle": "Model Context Protocol (MCP)",
+          "kind": "applied",
+          "tools": [
+            "MCP Python SDK",
+            "Claude Desktop",
+            "Cline",
+            "Python"
+          ],
+          "objectives": [
+            "Understand the purpose of the Model Context Protocol",
+            "Build an MCP server exposing healthcare chatbot tools",
+            "Connect the MCP server to an MCP-compatible client",
+            "Expose multiple chatbot capabilities through standardized MCP tools",
+            "Verify successful tool execution through live MCP interactions"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Model Context Protocol (MCP)\" (Day 23) — you worked with MCP Python SDK, Claude Desktop, Cline. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "concept",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 1,
+          "prompt": "Let's talk about Day 31: \"Capstone Project & Final Demo\". In your own words, walk me through demonstrate the complete enterprise healthcare chatbot. What's the core idea, and why does it matter?"
+        },
+        {
+          "day": 31,
+          "dayTitle": "Capstone Project & Final Demo",
+          "kind": "applied",
+          "tools": [
+            "FastAPI",
+            "React",
+            "LangChain",
+            "MCP",
+            "Docker",
+            "Kubernetes"
+          ],
+          "objectives": [
+            "Demonstrate the complete enterprise healthcare chatbot",
+            "Showcase retrieval, RAG, agents, MCP, and conversation memory",
+            "Present the deployed application with production architecture",
+            "Evaluate the chatbot using real-world scenarios",
+            "Publish the final project with source code and documentation"
+          ],
+          "attempts": 1,
+          "prompt": "Still on \"Capstone Project & Final Demo\" (Day 31) — you worked with FastAPI, React, LangChain. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong."
+        }
+      ],
+      "currentIndex": 2,
+      "followUpsAskedForCurrent": 0,
+      "transcript": [
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "question": "Let's talk about Day 12: \"Prompt Engineering Fundamentals\". In your own words, walk me through understand zero-shot, few-shot, and chain-of-thought prompting. What's the core idea, and why does it matter?",
+          "answer": "Sure. The core idea is that **prompting controls how we guide an LLM toward the desired output**.\n\n* **Zero-shot prompting:** We give the model a task without examples. For example: *“Classify this review as positive or negative.”* The model relies entirely on its pretrained knowledge and our instructions.\n* **Few-shot prompting:** We provide a few examples before asking the actual question. For example, showing several reviews with their correct classifications, then giving a new review. This helps the model understand the expected pattern and output format.\n* **Chain-of-thought prompting:** We encourage the model to reason through a problem step by step before arriving at an answer. This can be particularly useful for tasks involving multiple logical or mathematical steps. In production, I would generally ask for a concise rationale or structured reasoning rather than requiring hidden internal reasoning.\n\nThe main difference is **how much guidance we provide**: zero-shot gives instructions only, few-shot adds examples, and reasoning-oriented prompts add structure for complex problems.\n\nThis matters because a well-designed prompt can significantly improve **accuracy, consistency, output format, and task performance**, often without changing the underlying model.",
+          "evaluation": {
+            "words": 184,
+            "coverage": 0.5,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        },
+        {
+          "day": 12,
+          "dayTitle": "Prompt Engineering Fundamentals",
+          "question": "Still on \"Prompt Engineering Fundamentals\" (Day 12) — you worked with LLMs, Prompt Templates. Describe a concrete scenario where you'd apply this, and what could go wrong if you got it wrong.",
+          "answer": "A concrete scenario would be an **AI customer-support chatbot** where I use a prompt template to answer questions based on a company's product documentation.\n\nFor example, the template could contain the user's question, relevant retrieved documentation, and instructions such as: *“Answer only using the provided context. If the information isn't available, say you don't know.”*\n\nWhat could go wrong if the prompt is poorly designed?\n\n* The model could **hallucinate** information that isn't in the documentation.\n* It might give **inconsistent answers** to similar questions.\n* A vague prompt could cause it to ignore important context or produce the wrong output format.\n* If user input isn't handled carefully, **prompt injection** could cause the model to follow malicious instructions.\n* In a business setting, this could lead to **incorrect customer information, loss of trust, or financial/reputational damage**.\n\nSo, prompt engineering isn't just about getting a good-looking response—it is about making the LLM's behavior **reliable, constrained, and appropriate for the application**.",
+          "evaluation": {
+            "words": 160,
+            "coverage": 0.25,
+            "score": "strong"
+          },
+          "followUpCount": 0
+        }
+      ],
+      "pendingQuestion": {
+        "day": 13,
+        "dayTitle": "Advanced Prompting: Function Calling & Structured Outputs",
+        "kind": "concept",
+        "tools": [
+          "OpenAI Function Calling",
+          "Pydantic",
+          "Python"
+        ],
+        "objectives": [
+          "Define tool schemas for healthcare-related chatbot functions",
+          "Implement LLM function calling with automatic tool execution",
+          "Validate structured outputs using Pydantic models",
+          "Log tool calls for debugging and auditing",
+          "Test different user queries to verify correct tool selection"
+        ],
+        "attempts": 1,
+        "prompt": "Let's talk about Day 13: \"Advanced Prompting: Function Calling & Structured Outputs\". In your own words, walk me through define tool schemas for healthcare-related chatbot functions. What's the core idea, and why does it matter?"
+      },
+      "startedAt": "2026-08-09T11:17:58.884Z"
+    }
+  ]
+}
